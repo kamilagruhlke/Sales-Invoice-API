@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sales-invoice-api:
+    image: ${DOCKER_REGISTRY-}salesinvoiceapi
+    build:
+      context: .
+      dockerfile: Sales-Invoice-API/Dockerfile

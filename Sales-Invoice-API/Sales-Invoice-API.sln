@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales-Invoice-API", "Sales-Invoice-API\Sales-Invoice-API.csproj", "{7F2D4A02-E837-42E0-BE07-EFC1EB9FE91D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{162BA13B-496B-496A-BDD9-6DD9EC377A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7F2D4A02-E837-42E0-BE07-EFC1EB9FE91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F2D4A02-E837-42E0-BE07-EFC1EB9FE91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F2D4A02-E837-42E0-BE07-EFC1EB9FE91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162BA13B-496B-496A-BDD9-6DD9EC377A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162BA13B-496B-496A-BDD9-6DD9EC377A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162BA13B-496B-496A-BDD9-6DD9EC377A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162BA13B-496B-496A-BDD9-6DD9EC377A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
