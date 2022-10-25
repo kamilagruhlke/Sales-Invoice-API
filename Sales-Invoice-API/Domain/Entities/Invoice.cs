@@ -8,9 +8,9 @@ namespace Domain.Entities
 {
     public class Invoice
     {
-        public int Id { get; set; }
+        public float Id { get; set; }
         public DateTime Date { get; set; }
-        public int Number { get; set; }
+        public float Number { get; set; }
         public int Quantity { get; set; }
         public decimal NetValue { get; set; }
         public int Vat { get; set; }
@@ -21,7 +21,7 @@ namespace Domain.Entities
         {
         }
 
-        public Invoice(int id, DateTime date, int number, int quantity, decimal netValue,int vat, string description,
+        public Invoice(float id, DateTime date, float number, int quantity, decimal netValue,int vat, string description,
             string contractor)
         {
             Id = id;
