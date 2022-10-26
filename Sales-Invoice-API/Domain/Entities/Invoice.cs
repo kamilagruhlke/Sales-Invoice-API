@@ -10,7 +10,7 @@ namespace Domain.Entities
     {
         public long Id { get; set; }
         public DateTime Date { get; set; }
-        public long Number { get; set; }
+        public string Number { get; set; }
         public int Quantity { get; set; }
         public decimal NetValue { get; set; }
         public int Vat { get; set; }
@@ -21,7 +21,7 @@ namespace Domain.Entities
         {
         }
 
-        public Invoice(long id, DateTime date, long number, int quantity, decimal netValue,int vat, string description,
+        public Invoice(long id, DateTime date, string number, int quantity, decimal netValue,int vat, string description,
             string contractor)
         {
             Id = id;

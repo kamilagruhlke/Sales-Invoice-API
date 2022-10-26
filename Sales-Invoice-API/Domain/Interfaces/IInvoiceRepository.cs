@@ -14,6 +14,6 @@ namespace Domain.Interfaces
         Invoice GetById(int id);
         Invoice Add(Invoice invoice);
         Invoice Update(Invoice invoice);
-        Invoice Delete(int id);
+        void Delete(Invoice invoice);
     }
 }
